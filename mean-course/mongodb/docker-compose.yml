@@ -1,0 +1,6 @@
+version: '3.0'
+
+mean-course-mongo:
+  image: mongo:4.2.3
+  ports:
+    - "27017:27017"
